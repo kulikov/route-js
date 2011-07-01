@@ -3,9 +3,9 @@
 Примеры используемых схем
 
     #/my-objects-list 
-    #/data/:id        // сработает для #/data/12 или #/data/test
-    #/data(/:id)(/:name)      // id и name не обязательные параметры. сработает и для #/data/12/Dima и для #/data/12 и для #/data 
-    #/data/*          // любое количество key/value/key2/value2/key3/value3 параметров 
+    #/data/:id           // сработает для #/data/12 или #/data/test
+    #/data(/:id)(/:name) // id и name не обязательные параметры. сработает и для #/data/12/Dima и для #/data/12 и для #/data 
+    #/data/*             // любое количество key/value/key2/value2/key3/value3 параметров 
 
 
 ## Стартуем перехват изменений хеша в урле ##
