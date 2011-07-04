@@ -77,7 +77,7 @@
         
 Фильтров .before можно назначить сколько угодно.
 
-Route.map('#/params/*')
+    Route.map('#/params/*')
         .before(function() {
             // validate 1 
         })
